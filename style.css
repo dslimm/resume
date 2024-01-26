@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 750px;
+    margin: auto;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: #f1f1f1;
+    margin-bottom: 50px;
+}
+
+.font2 {
+    font-family: Verdana;
+    font-size: 14px;
+    font-style: italic;
+    padding: 10px 50px;
+    }
+    .font2 li {
+    border-bottom: 1px dashed #ddd;
+    }
+
+h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 20px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+img {
+    display: block;
+    width: 250px;
+    height: 250px;
+    border: none;
+    border-radius: 15px;
+    margin: 20px;
+}
+.avatar {
+    display: flex;
+
+}
+.description {
+    margin: 30px;
+}
+.fon1 {
+    padding: 20px 80px;
+    margin: 20px;
+    background: darksalmon;
+    border-radius: 10px;
+}
+
+.fon2 {
+    border-radius: 10px;
+    padding: 20px 80px;
+}
+.fon3 {
+    background-color: darksalmon;
+    border-radius: 10px;
+    padding: 20px 80px;
+    margin: 20px;
+    text-align: center;
+}
+
+.fon3 a {
+font-weight: bold;
+}
+table {
+    border: 2px solid darkred;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.55);
+    background: #ddd;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+th, td {
+    padding: 5px 20px;
+}
+.btn {
+    background: darkred;
+    color: #fff;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    cursor: pointer;
+    margin: 15px auto;
+}
+.btn:hover {
+    opacity: 0.7;
+    color: black;
+    transition: all .3s;
+}
+.btn:active {
+    color: #fff;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+a:visited {
+    color: #fff;
+}
+a:active {
+    color: blue;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.list li {
+    margin-bottom: 7px;
+}
+
+.table {
+    width: 100%;
+}
+.table thead tr{
+    background: darksalmon;
+}
+.table tr {
+    background: #fff;
+}
+.table td {
+    text-align: center;
+
+}
+.table td:hover {
+    background: #ddd;
+}
+/*
+.table tr:nth-child(even) {
+    background: darkred;
+}
+
+.table td:nth-child(1), .table td:nth-child(3) {
+    background: darkred;
+}
+*/
+
+.navbar {
+    /* position: fixed; */
+    /* z-index: 2; */
+    background: darksalmon;
+    margin-bottom: 10px;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0 0 0 50px;
+    padding: 0;
+    display: flex;
+}
+.navbar ul li {
+    margin-right: 20px;
+    padding: 10px;
+
+}
+.navbar ul li:hover {
+    background: #fff;
+}
+.navbar ul li:last-child {
+    margin-right: 0;
+}
+
+.inline li {
+    display: inline;
+}
+.inl-blk {
+    width: 19%;
+    border: 1px solid black;
+    background: #ddd;
+    display: inline-block;
+    box-sizing: border-box;
+}
+/* чтобы инлайн элементу (a, img, span) присвоить марджин и т.п. нужно сделать его блочным элементом 
+.img {
+    width: 200px;
+    display: block;
+    margin: 40px auto;
+}
+*/
+
+.img2 img {
+    display: block;
+    width: 250px;
+    margin: 40px auto;
+}
+
+.form {
+    background: #ddd;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid darkred;
+    width: 250px;
+    text-align: center;
+    font-family: Verdana;
+}
+.form-group {
+    display: block;
+    margin-bottom: 10px;
+}
+.form-group label {
+    font-size: 16px;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 3px auto;
+    padding: 5px 10px;
+    color: #000;
+    font-size: 12px;
+    border: none;
+    outline: 1px dashed darkred;
+}
+
+@media (max-width: 650px) {
+    .container {
+        width: 500px;
+        margin: auto;
+    }
+    
+    body {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        font-weight: normal;
+        background: #f1f1f1;
+        margin-bottom: 30px;
+    }
+    img {
+        width: 150px;
+        height: 150px;
+    }
+
+}
